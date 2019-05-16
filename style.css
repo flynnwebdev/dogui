@@ -1,0 +1,27 @@
+.dog {
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid grey;
+}
+
+.dog .details {
+    display: flex;
+}
+
+.dog h3,
+.dog h4 {
+    flex: 2;
+    margin: 0.25rem;
+}
+
+.dog .details>button {
+    flex: 1;
+}
+
+.dog .walk {
+    margin: 0.5rem 0 0.5rem 4rem;
+}
+
+#add_dog {
+    padding: 0.5rem;
+}
